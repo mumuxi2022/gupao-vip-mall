@@ -1,0 +1,18 @@
+package com.jt.feign;
+
+import com.jt.model.AdHomeBrand;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
+
+/**
+ * @author 帅气的景天老师
+ * @create 2022/9/27 15:09
+ */
+@FeignClient("mall-service-ad")
+public interface AdHomeBrandFeign {
+
+    @GetMapping(value = "/home/brand/listAll")
+    List<AdHomeBrand> listAll();
+}

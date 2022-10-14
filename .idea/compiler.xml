@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-service-order" />
+        <module name="mall-service-auth" />
+        <module name="mall-api-ad" />
+        <module name="mall-service-ad" />
+        <module name="mall-api-search" />
+        <module name="mall-api-file" />
+        <module name="mall-service-context" />
+        <module name="mall-search" />
+        <module name="mall-api-goods" />
+        <module name="mall-common" />
+        <module name="mall-service-portal" />
+        <module name="mall-gateway" />
+        <module name="mall-api-order" />
+        <module name="mall-api-auth" />
+        <module name="mall-api-context" />
+        <module name="mall-api-user" />
+        <module name="mall-service-canal" />
+        <module name="mall-api-portal" />
+        <module name="mall-service-file" />
+        <module name="mall-service-goods" />
+        <module name="mall-service-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-api-admin" target="1.8" />
+      <module name="mall-file" target="1.8" />
+      <module name="mall-service-admin" target="1.8" />
+      <module name="mall-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-api" options="-parameters" />
+      <module name="mall-api-ad" options="" />
+      <module name="mall-api-admin" options="" />
+      <module name="mall-api-context" options="" />
+      <module name="mall-api-goods" options="" />
+      <module name="mall-api-order" options="" />
+      <module name="mall-api-user" options="" />
+      <module name="mall-common" options="" />
+      <module name="mall-gateway" options="" />
+      <module name="mall-service" options="" />
+    </option>
+  </component>
+</project>

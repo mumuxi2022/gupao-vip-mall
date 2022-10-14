@@ -1,0 +1,34 @@
+server:
+  port: 8088
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  redis:
+    host: 192.168.8.137 # Redis服务器地址
+    database: 2 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password: 123456  # Redis服务器连接密码（默认为空）
+    timeout: 3000ms # 连接超时时间（毫秒）
+management: #开启SpringBoot Admin的监控
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+redis:
+  database: mall
+  key:
+    authCode: 'user:authCode'
+    orderId: 'order:orderId'
+    member: 'user:member'
+  expire:
+    authCode: 90 # 验证码超期时间
+    common: 86400 # 24小时
+feign:
+  okhttp:
+    enabled: true
+ribbon:
+  ConnectTimeout: 3000 #服务请求连接超时时间（毫秒）
+  ReadTimeout: 3000 #服务请求处理超时时间（毫秒）

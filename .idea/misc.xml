@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-user/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-goods/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-ad/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-file/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-context/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-service/mall-service-canal/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mall-api/mall-api-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-api/mall-file/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
